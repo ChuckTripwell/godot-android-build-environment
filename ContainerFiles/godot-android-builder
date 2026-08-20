@@ -17,4 +17,6 @@ RUN rm /boxkit.sh /distrobox-shims.sh /boxkit.packages
 RUN --mount=type=bind,src=build_files,dst=/ctx/build_files \
     cp /ctx/build_files/setup.sh /setup.sh
 
+COPY --from=ctx /build_files/setup.sh /setup.sh
+
 RUN chmod +x ./setup.sh
