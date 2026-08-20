@@ -1,10 +1,1 @@
-base-devel
-scons
-python
-jdk17-openjdk
-pkgconf
-libxi
-libxcursor
-libxinerama
-libxrandr
-mesa
+
