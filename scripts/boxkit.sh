@@ -7,4 +7,6 @@
 pacman -Syyuu --noconfirm archlinux-keyring cachyos-keyring
 grep -v '^#' ./boxkit.packages | xargs pacman -Sy --noconfirm 
 
-echo "cd $HOME/.var/app/io.github.MakovWait.Godots/data/godot/app_userdata/Godots/versions/" >> /etc/profile
+echo "cd /home/" >> /etc/profile
+echo "cd $USER" >> /etc/profile
+echo "cd /.var/app/io.github.MakovWait.Godots/data/godot/app_userdata/Godots/versions/" >> /etc/profile
