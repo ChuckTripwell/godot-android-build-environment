@@ -28,5 +28,15 @@ vimdiff
 wl-clipboard
 zellij
 zstd
-openjdk17
-android-tools
+build-base
+scons
+python3
+openjdk17-jdk
+pkgconfig
+libx11-dev
+libxcursor-dev
+libxinerama-dev
+libxrandr-dev
+libxi-dev
+mesa-dev
+gcompat
