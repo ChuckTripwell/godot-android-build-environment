@@ -13,3 +13,6 @@ COPY ../packages/boxkit.packages /
 # Run the setup scripts
 RUN chmod +x boxkit.sh distrobox-shims.sh && /boxkit.sh
 RUN rm /boxkit.sh /distrobox-shims.sh /boxkit.packages
+
+COPY build_files/setup.sh /
+RUN chmod +x ./setup.sh
