@@ -7,6 +7,3 @@
 #apk update && apk upgrade
 #grep -v '^#' ./boxkit.packages | xargs apk add
 
-cd /
-cp -r build_files/setup.sh /
-chmod +x ./setup.sh
